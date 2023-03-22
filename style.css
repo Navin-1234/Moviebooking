@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 95%;
+    /* height: 10vh; */
+    margin: auto;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* background-color: teal; */
+}
+
+#logo {
+    width: 40%;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+#search-part {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+
+
+}
+
+input[type="text"] {
+    width: 30%;
+    margin-right: 0.5rem;
+    /* padding: 0.1rem; */
+    border-radius: 5px;
+    font-size: 1.5rem;
+    border: none;
+    border: 1px solid black;
+}
+
+input[type="button"] {
+    width: 15%;
+    margin-right: 10rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: red;
+    border: 1px solid red;
+}
+
+.navbar {
+
+    width: 95%;
+    margin: auto;
+    border: 1px solid yellow;
+    /* height: 60vh; */
+    display: flex;
+}
+
+.geners {
+    width: 20%;
+
+    border: 1px solid red;
+}
+
+.geners div p {
+    padding: 0.3rem;
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.movie-poster {
+    width: 80%;
+    border: 1px solid purple;
+
+}
+
+.movie-poster h1 {
+    margin-left: 1rem;
+}
+
+#movie-list-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 1rem;
+}
+
+#movie-list-container>div {
+    border: 1px solid lawngreen;
+    /* height: 50vh; */
+}
+
+.image-div {
+    width: 100%;
+    /* border: 1px solid green; */
+}
+
+.image-div img {
+    width: 100%;
+    height: auto;
+    padding: 0.8rem;
+}
+
+.movie-details-class {
+    height: 12%;
+    /* border: 1px solid black; */
+    /* display: flex; */
+}
+
+.movie-details-class div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.movie-details-class div>P {
+    padding-top: 0.5rem;
+
+}
